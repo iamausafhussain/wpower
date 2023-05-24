@@ -1,10 +1,11 @@
 .navbar {
   display: flex;
-  width: 100vw;
   height: 87px;
   align-items: center;
   justify-content: space-between;
   border-bottom: 2px solid lightgray;
+  position: static;
+  top: 0;
 }
 
 .nav-link-container {
@@ -31,7 +32,7 @@
   list-style-type: none;
   height: 90px;
   align-items: center;
-  margin: 0;
+  margin-left: 20px;
 }
 
 .nav-link {

@@ -17,7 +17,17 @@
 }
 
 .image > img {
-  width: 95%;
+  width: 100%;
   object-fit: contain;
   border-radius: 15px;
+}
+
+.description {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.description > h5 {
+  font-size: 20px;
+  font-weight: 500;
 }
