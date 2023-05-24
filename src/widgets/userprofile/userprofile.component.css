@@ -1,0 +1,81 @@
+.userprofile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 300px;
+  border-right: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+}
+
+/* user styling */
+
+.user,
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding-left: 180px;
+}
+
+.user-img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.user-details {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.user-details > h5 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.user-details > p,
+.stats-details > p {
+  font-size: 14px;
+  color: rgb(184, 184, 184);
+}
+
+/* stats styling */
+
+.stats {
+  margin-top: 50px;
+}
+
+.stats-left,
+.stats-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats-right {
+  margin-left: 40px;
+}
+
+.img-wrapper {
+  background: rgb(236, 236, 236);
+  padding: 4px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats-details {
+  margin-left: 10px;
+}
+
+.stats-details > h4 {
+  font-size: 23px;
+}
