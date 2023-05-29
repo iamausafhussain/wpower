@@ -8,4 +8,5 @@ import { Component, Input } from '@angular/core';
 export class RecommendedcardComponent {
   @Input() descriptionProp: any;
   @Input() imageProp: any;
+  @Input() backgroundProp: any;
 }
