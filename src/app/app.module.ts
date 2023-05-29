@@ -9,6 +9,8 @@ import { HomeComponent } from 'src/components/home/home.component';
 import { UserprofileComponent } from 'src/widgets/userprofile/userprofile.component';
 import { RecommendeditemComponent } from 'src/widgets/recommendeditem/recommendeditem.component';
 import { RecommendedcardComponent } from 'src/widgets/recommendedcard/recommendedcard.component';
+import { CoursesComponent } from 'src/widgets/courses/courses.component';
+import { CourseItemComponent } from 'src/widgets/course-item/course-item.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { RecommendedcardComponent } from 'src/widgets/recommendedcard/recommende
     UserprofileComponent,
     RecommendeditemComponent,
     RecommendedcardComponent,
+    CoursesComponent,
+    CourseItemComponent,
   ],
   imports: [BrowserModule, BrowserAnimationsModule, MatIconModule],
   providers: [],

@@ -1,0 +1,32 @@
+.course-item-container {
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  height: 300px;
+  padding: 20px 30px;
+  /* width: 100%; */
+  margin-bottom: 20px;
+}
+
+.menu-icon {
+  padding: 10px;
+  background: pink;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-icon > img {
+  object-fit: contain;
+  width: 20px;
+}
+
+.course-card {
+  border: 2px solid lightgray;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  margin: 0 0 0 10px;
+  border-radius: 10px;
+}

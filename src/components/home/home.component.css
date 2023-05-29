@@ -1,0 +1,12 @@
+.home {
+  display: flex;
+  flex: 1 1 1;
+}
+
+.home > * {
+  flex: 1 1 33.33%;
+}
+
+.courses {
+  border-right: 2px solid lightgray;
+}
