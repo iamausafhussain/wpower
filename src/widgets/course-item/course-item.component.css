@@ -1,6 +1,6 @@
 .course-item-container {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   justify-content: space-evenly;
   height: 300px;
   padding: 20px 30px;
