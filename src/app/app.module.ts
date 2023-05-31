@@ -11,6 +11,7 @@ import { RecommendeditemComponent } from 'src/widgets/recommendeditem/recommende
 import { RecommendedcardComponent } from 'src/widgets/recommendedcard/recommendedcard.component';
 import { CoursesComponent } from 'src/widgets/courses/courses.component';
 import { CourseItemComponent } from 'src/widgets/course-item/course-item.component';
+import { SchedulerComponent } from 'src/widgets/scheduler/scheduler.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { CourseItemComponent } from 'src/widgets/course-item/course-item.compone
     RecommendedcardComponent,
     CoursesComponent,
     CourseItemComponent,
+    SchedulerComponent,
   ],
   imports: [BrowserModule, BrowserAnimationsModule, MatIconModule],
   providers: [],
